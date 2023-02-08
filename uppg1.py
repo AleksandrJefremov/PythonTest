@@ -1,0 +1,5 @@
+ord = input('Säg ditt ord\n\t')
+print(len(ord))
+print('De första 3 bokstäverna i ditt ord är: ', ord[:3])
+print('\'a\' kommer på plats: ', ord.find('a') + 1)
+print(ord.islower())
